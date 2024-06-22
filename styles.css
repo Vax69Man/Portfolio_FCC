@@ -216,5 +216,13 @@ footer p {
     html {
       font-size: 0.5rem;
     }
+
+    .project-column {
+        grid-template-columns: repeat(1, minmax(280px, 20em));
+    }
+
+    .project-column h3 {
+        font-size: 1.5rem !important;
+    }
   }
 
